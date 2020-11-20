@@ -25,14 +25,28 @@
 .headerBackground {
   background-image: url("../../../Utility/Illustration/left-bg.png"), url("../../../Utility/Illustration/right-bg.png"), url("../../../Utility/Illustration/left-st.png"), url("../../../Utility/Illustration/right-udio.png"), url("../../../Utility/Illustration/dot-purple.png"), url("../../../Utility/Illustration/dot-green.png"), url("../../../Utility/Illustration/dot-purple-small.png"), url("../../../Utility/Illustration/dots.png"), url("../../../Utility/Illustration/dots.png");
   background-repeat: no-repeat;
-  background-position: 520px -520px, -425px -480px, right 50px, left 510px, center 100px, 500px bottom, left 10px, 350px -30px, -80px center;
+  background-position: 520px -520px, -450px -450px, right 50px, left 510px, center 100px, 500px bottom, right 50px, center -65px, -80px center;
   background-size: cover, contain, auto, auto, auto, auto, auto, auto, auto, auto;
 }
 
 @media only screen and (max-width: 576px) {
   .headerBackground {
     background-image: url("../../../Utility/Illustration/left-bg.png"), url("../../../Utility/Illustration/right-bg.png"), url(""), url(""), url(""), url(""), url("../../../Utility/Illustration/dot-purple-small.png"), url("../../../Utility/Illustration/dots.png"), url("");
-    background-position: 520px -520px, -220px -210px, right 50px, left 510px, center 100px, 500px bottom, left 10px, center -65px, -80px center;
+    background-position: 520px -520px, -270px -280px, right 50px, left 510px, center 100px, 500px bottom, left 10px, center -65px, -80px center;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .headerBackground {
+    background-image: url("../../../Utility/Illustration/left-bg.png"), url("../../../Utility/Illustration/right-bg.png"), url(""), url(""), url(""), url(""), url("../../../Utility/Illustration/dot-purple-small.png"), url("../../../Utility/Illustration/dots.png"), url("") !important;
+    background-position: 520px -520px, -450px -375px, right 50px, left 510px, center 100px, 500px bottom, right 50px, center -65px, -80px center;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .headerBackground {
+    background-image: url("../../../Utility/Illustration/left-bg.png"), url("../../../Utility/Illustration/right-bg.png"), url(""), url(""), url(""), url(""), url("../../../Utility/Illustration/dot-purple-small.png"), url("../../../Utility/Illustration/dots.png"), url("") !important;
+    background-position: 520px -520px, -450px -400px, right 50px, left 510px, center 100px, 500px bottom, right 50px, center -65px, -80px center;
   }
 }
 /*# sourceMappingURL=Header.css.map */
