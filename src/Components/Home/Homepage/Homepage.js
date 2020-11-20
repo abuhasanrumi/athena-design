@@ -1,5 +1,6 @@
 import React from 'react';
 import AchievementArea from '../AchievementArea/AchievementArea';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import PackageArea from '../PackageArea/PackageArea';
 import ProjectArea from '../ProjectArea/ProjectArea';
@@ -15,6 +16,7 @@ const Homepage = () => {
             <AchievementArea></AchievementArea>
             <PackageArea></PackageArea>
             <SubscriptionArea></SubscriptionArea>
+            <Footer></Footer>
         </div>
     );
 };

@@ -1,0 +1,28 @@
+.inputField {
+  padding: 15px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  left: 0;
+  right: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.start-btn {
+  position: absolute;
+  left: auto;
+  right: 5px;
+  top: 5px;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(142deg, #020024 0%, #2af598 0%, #009efd 100%);
+}
+
+.subscriptionArea {
+  background: #FAFFFD;
+}
+/*# sourceMappingURL=SubscriptionArea.css.map */

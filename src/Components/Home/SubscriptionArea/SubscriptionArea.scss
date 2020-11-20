@@ -1,0 +1,26 @@
+.inputField {
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    left: 0;
+    right: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.start-btn {
+    position: absolute;
+    left: auto;
+    right: 5px;
+    top: 5px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(42,245,152,1) 0%, rgba(0,158,253,1) 100%);
+}
+
+.subscriptionArea {
+    background: #FAFFFD
+}
