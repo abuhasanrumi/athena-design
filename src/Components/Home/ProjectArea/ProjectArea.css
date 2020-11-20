@@ -1,0 +1,15 @@
+.projectTitle {
+  font-size: 2rem;
+}
+
+.projectImg {
+  background: url("../../../Utility/Illustration/dot-purple-small.png") no-repeat top left, url("../../../Utility/Illustration/dot-green.png") no-repeat bottom right;
+}
+
+.projectArea {
+  background: url("../../../Utility/Illustration/left-bg.png");
+  background-position: 650px center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=ProjectArea.css.map */

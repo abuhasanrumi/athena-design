@@ -74,7 +74,7 @@ const ServiceArea = () => {
     return (
         <div>
             <div className="serviceBackground">
-                <div className="container py-5">
+                <div className="container pt-5">
                     <div className="row mt-4">
                         <div className="col-md-6 offset-md-3">
                             <div className="serviceHeading text-center">
@@ -83,40 +83,40 @@ const ServiceArea = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="row py-5 service-cards text-center">
+                    <div className="row py-5 service-cards text-center">
                         <div className="col-md-6 col-lg-3 service-card-wrapper">
-                            <div class="card single-service py-5">
+                            <div className="card single-service pt-5 pb-3">
                                 <div className="serviceImg pb-3">{service1}</div>
-                                <div class="card-body pb-0">
-                                    <h5 class="card-title brand-color">Experience Design</h5>
-                                    <p class="card-text brand-fade">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                <div className="card-body pb-0">
+                                    <h5 className="card-title brand-color">Experience Design</h5>
+                                    <p className="card-text brand-fade">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 service-card-wrapper">
-                            <div class="card single-service py-5">
+                            <div className="card single-service pt-5 pb-3">
                                 <div className="serviceImg pb-3">{service2}</div>
-                                <div class="card-body pb-0">
-                                    <h5 class="card-title brand-color">Interface Design</h5>
-                                    <p class="card-text brand-fade">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                <div className="card-body pb-0">
+                                    <h5 className="card-title brand-color">Interface Design</h5>
+                                    <p className="card-text brand-fade">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 service-card-wrapper">
-                            <div class="card single-service py-5">
+                            <div className="card single-service pt-5 pb-3">
                                 <div className="serviceImg pb-3">{service3}</div>
-                                <div class="card-body pb-0">
-                                    <h5 class="card-title brand-color">Prototyping</h5>
-                                    <p class="card-text brand-fade">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                <div className="card-body pb-0">
+                                    <h5 className="card-title brand-color">Prototyping</h5>
+                                    <p className="card-text brand-fade">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 service-card-wrapper">
-                            <div class="card single-service py-5">
+                            <div className="card single-service pt-5 pb-3">
                                 <div className="serviceImg pb-3">{service4}</div>
-                                <div class="card-body pb-0">
-                                    <h5 class="card-title brand-color">Illustration</h5>
-                                    <p class="card-text brand-fade">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                <div className="card-body pb-0">
+                                    <h5 className="card-title brand-color">Illustration</h5>
+                                    <p className="card-text brand-fade">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
                                 </div>
                             </div>
                         </div>
