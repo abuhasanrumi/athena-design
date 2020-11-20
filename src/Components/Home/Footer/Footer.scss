@@ -1,0 +1,41 @@
+.footerArea {
+    background: #FAFFFD;
+}
+
+.social-icons {
+    li {
+        display: inline-block;
+        font-size: 1.7rem;
+        padding: 10px;
+
+        a {
+            color: #838584;
+            text-decoration: none;
+            }
+    }
+
+    
+}
+
+.footer-menu {
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            list-style: none;
+            padding: 5px 0;
+            font-weight: 500;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+}
+
+.social-icons li:first-child {
+    padding-left: 0px;
+}
+
