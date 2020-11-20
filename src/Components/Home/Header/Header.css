@@ -1,0 +1,39 @@
+.logo {
+  max-width: 150px;
+  min-width: 60px;
+}
+
+.nav-item.active .nav-link {
+  font-weight: 600;
+}
+
+.nav-item .nav-link {
+  color: #000000 !important;
+  margin-left: 10px;
+}
+
+.nav-item .nav-link.brand-btn {
+  color: #ffffff !important;
+}
+
+.nav-item .brand-btn {
+  background-image: url("../../../Utility/Illustration/contact.png"), linear-gradient(142deg, #020024 0%, #2af598 0%, #009efd 100%);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.headerBackground {
+  background-image: url("../../../Utility/Illustration/left-bg.png"), url("../../../Utility/Illustration/right-bg.png"), url("../../../Utility/Illustration/left-st.png"), url("../../../Utility/Illustration/right-udio.png"), url("../../../Utility/Illustration/dot-purple.png"), url("../../../Utility/Illustration/dot-green.png"), url("../../../Utility/Illustration/dot-purple-small.png"), url("../../../Utility/Illustration/dots.png"), url("../../../Utility/Illustration/dots.png");
+  background-repeat: no-repeat;
+  background-position: 520px -520px, -425px -480px, right 50px, left 510px, center 100px, 500px bottom, left 10px, 350px -30px, -80px center;
+  background-size: cover, contain, auto, auto, auto, auto, auto, auto, auto, auto;
+}
+
+@media only screen and (max-width: 576px) {
+  .headerBackground {
+    background-image: url("../../../Utility/Illustration/left-bg.png"), url("../../../Utility/Illustration/right-bg.png"), url(""), url(""), url(""), url(""), url("../../../Utility/Illustration/dot-purple-small.png"), url("../../../Utility/Illustration/dots.png"), url("");
+    background-position: 520px -520px, -220px -210px, right 50px, left 510px, center 100px, 500px bottom, left 10px, center -65px, -80px center;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

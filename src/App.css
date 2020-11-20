@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 .brand-font {
   font-family: 'Yeseva One', cursive;
 }
@@ -7,3 +7,22 @@
 .body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.brand-btn {
+  background: linear-gradient(142deg, #020024 0%, #2af598 0%, #009efd 100%);
+  display: inline-block;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 40px 0px 40px 0px;
+  cursor: pointer;
+}
+
+.brand-fade {
+  color: #8D8D8D;
+}
+
+.brand-color {
+  color: #34285C;
+}
+/*# sourceMappingURL=App.css.map */
