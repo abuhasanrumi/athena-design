@@ -7,10 +7,10 @@ const ProjectArea = () => {
         <div className="projectArea">
             <div className="container py-5">
                 <div className="row d-flex align-items-center">
-                    <div className="col-md-6 pr-md-4 py-4 projectImg">
+                    <div className="col-md-6 pr-md-4 py-4 projectImg order-1 order-md-0">
                         <img className="img-fluid" src={projectImg} alt="" />
                     </div>
-                    <div className="col-md-6 pl-md-5">
+                    <div className="col-md-6 pl-md-5 order-0 order-md-1">
                         <div className="projectDetails">
                             <h3 className="brand-color projectTitle">STAY RUNNING &amp; Project</h3>
                             <p className="brand-fade py-3">
