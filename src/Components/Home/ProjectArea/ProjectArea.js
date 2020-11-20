@@ -12,7 +12,7 @@ const ProjectArea = () => {
                     </div>
                     <div className="col-md-6 pl-md-5 order-0 order-md-1">
                         <div className="projectDetails">
-                            <h3 className="brand-color projectTitle">STAY RUNNING &amp; Project</h3>
+                            <h3 className="brand-color projectTitle brand-font">STAY RUNNING &amp; Project</h3>
                             <p className="brand-fade py-3">
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter.
                             </p>

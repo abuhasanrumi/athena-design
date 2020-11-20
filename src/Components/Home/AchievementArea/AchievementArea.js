@@ -10,7 +10,7 @@ const AchievementArea = () => {
                 <div className="row d-flex align-items-center">
                     <div className="col-md-6 py-4">
                         <div className="projectDetails">
-                            <h3 className="brand-color projectTitle">Our Achievements</h3>
+                            <h3 className="brand-color projectTitle brand-font">Our Achievements</h3>
                             <p className="brand-fade py-3">
                                 It is a long established fact that a reader will be distracted by
                                 the readable content of a page when looking at its layout. The
@@ -21,7 +21,7 @@ const AchievementArea = () => {
                     </div>
                     <div className="col-md-6 py-4">
                         <div className="row achievement-cards ">
-                            <div className="col-md-6 achievement-card-wrapper py-3">
+                            <div className="col-md-12 col-lg-6 achievement-card-wrapper py-3">
                                 <div className="card single-achievement achievement1 px-3 py-5 py-md-4">
                                     <div className="card-details">
                                         <div className="achievementImg pr-4"><FontAwesomeIcon icon={faLaughBeam} /></div>
@@ -32,7 +32,7 @@ const AchievementArea = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 achievement-card-wrapper py-3">
+                            <div className="col-md-12 col-lg-6  achievement-card-wrapper py-3">
                                 <div className="card single-achievement achievement2 px-3 py-5 py-md-4">
                                     <div className="card-details">
                                         <div className="achievementImg pr-4"><FontAwesomeIcon icon={faAward} /></div>
@@ -43,7 +43,7 @@ const AchievementArea = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 achievement-card-wrapper py-3">
+                            <div className="col-md-12 col-lg-6  achievement-card-wrapper py-3">
                                 <div className="card single-achievement achievement2 px-3 py-5 py-md-4">
                                     <div className="card-details">
                                         <div className="achievementImg pr-4"><FontAwesomeIcon icon={faBrain} /></div>
@@ -54,7 +54,7 @@ const AchievementArea = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 achievement-card-wrapper py-3">
+                            <div className="col-md-12 col-lg-6  achievement-card-wrapper py-3">
                                 <div className="card single-achievement achievement1 px-3 py-5 py-md-4">
                                     <div className="card-details">
                                         <div className="achievementImg pr-4"><FontAwesomeIcon icon={faRocket} /></div>

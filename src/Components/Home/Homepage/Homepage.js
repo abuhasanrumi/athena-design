@@ -1,8 +1,10 @@
 import React from 'react';
 import AchievementArea from '../AchievementArea/AchievementArea';
 import Header from '../Header/Header';
+import PackageArea from '../PackageArea/PackageArea';
 import ProjectArea from '../ProjectArea/ProjectArea';
 import ServiceArea from '../ServiceArea/ServiceArea';
+import SubscriptionArea from '../SubscriptionArea/SubscriptionArea';
 
 const Homepage = () => {
     return (
@@ -11,6 +13,8 @@ const Homepage = () => {
             <ServiceArea></ServiceArea>
             <ProjectArea></ProjectArea>
             <AchievementArea></AchievementArea>
+            <PackageArea></PackageArea>
+            <SubscriptionArea></SubscriptionArea>
         </div>
     );
 };

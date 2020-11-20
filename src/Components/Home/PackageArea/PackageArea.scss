@@ -1,0 +1,38 @@
+.packageArea {
+    background: url('../../../Utility/Illustration/left-bg.png'), #FAFFFD;
+    background-position: -270px center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.single-package {
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: .5s all !important;
+    min-height: 37.37rem;
+}
+
+.package-details{
+    border-bottom: 2px solid #3CEDCE;
+    .packageTitle {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+}
+
+.packageList ul li{
+    padding: 7px 0;
+}
+
+.packageList ul li.order-btn {
+    display: none;
+}
+
+.single-package:hover  {
+    border: 2px solid #3CEDCE;
+    .order-btn {display: block}
+}
+.package2 {
+    
+    border: 2px solid #3CEDCE;
+}
